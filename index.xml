@@ -4,15 +4,34 @@
         <link>https://X-20020504.github.io/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>m18210401945@gmail.com (YIBO ZHOU)</managingEditor>
-            <webMaster>m18210401945@gmail.com (YIBO ZHOU)</webMaster><lastBuildDate>Sat, 04 Nov 2023 21:03:45 &#43;0800</lastBuildDate>
+            <webMaster>m18210401945@gmail.com (YIBO ZHOU)</webMaster><lastBuildDate>Tue, 04 Apr 2023 16:46:27 &#43;0800</lastBuildDate>
             <atom:link href="https://X-20020504.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
-    <link>https://X-20020504.github.io/first_post/</link>
-    <pubDate>Sat, 04 Nov 2023 21:03:45 &#43;0800</pubDate>
+    <title>[Academics] Quadruped Blind Guiding Robot</title>
+    <link>https://X-20020504.github.io/quadruped_blind_guiding_robot/</link>
+    <pubDate>Tue, 04 Apr 2023 16:46:27 &#43;0800</pubDate>
     <author>YIBO ZHOU</author>
-    <guid>https://X-20020504.github.io/first_post/</guid>
-    <description><![CDATA[]]></description>
+    <guid>https://X-20020504.github.io/quadruped_blind_guiding_robot/</guid>
+    <description><![CDATA[1 Duration 07/00/2022 - 03/00/2023
+2 Overview During the summer vacation of Sophomore Year, I got the opportunity to join the Machine Intelligence Laboratory (MiLAB) in Westlake University as a visiting student for 8 month (from July 2022 to March 2023). MiLAB is founded Dr. Donglin Wang. They conduct the pioneering research of Robot Learning, with the mission to endow real robot with high flexibility, fast adaptation and autonomous learning by making use of machine learning algorithms.]]></description>
+</item>
+<item>
+    <title>[Academics] Vision-Servo Underwater Gripping Robot</title>
+    <link>https://X-20020504.github.io/vision-servo_underwater_gripping_robot/</link>
+    <pubDate>Fri, 30 Dec 2022 19:35:35 &#43;0800</pubDate>
+    <author>YIBO ZHOU</author>
+    <guid>https://X-20020504.github.io/vision-servo_underwater_gripping_robot/</guid>
+    <description><![CDATA[1 Duration 06/00/2021 - 12/00/2022
+2 Overview The Underwater Grabbing Robot is designed for 2021 National Innovation Training Project for University. I was responsible for the circuit system design, control algorithm design, and visual servoing algorithm design of the robot. Unlike traditional frame-based underwater grabbing robots, this robot features a four-axis olive-shaped structure that effectively reduces fluid resistance, giving it high maneuverability. The bottom gripper is capable of visual servoing to grasp target objects.]]></description>
+</item>
+<item>
+    <title>[Academics] Vision-Servo Agricultural Quadcopter</title>
+    <link>https://X-20020504.github.io/vision-servo_agricultural_quadcopter/</link>
+    <pubDate>Sat, 20 Nov 2021 19:54:48 &#43;0800</pubDate>
+    <author>YIBO ZHOU</author>
+    <guid>https://X-20020504.github.io/vision-servo_agricultural_quadcopter/</guid>
+    <description><![CDATA[1 Duration 07/00/2021 - 11/00/2022
+2 Overview The Vision Servo Agricultural Quadcopter is the project I designed for National Undergraduate Electronics Design Contest. It ultilizes TM4C123G as the main controller. By using inertial sensors, laser ranging sensors, and optical flow sensors for perception, the UAV enables closed-loop control. Additionally, I employed a camera for visual servo. The control algorithm is based on a dual-loop PID controller, allowing for stable flight and good maneuverability.]]></description>
 </item>
 </channel>
 </rss>

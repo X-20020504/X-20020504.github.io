@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>[Academics] Vision-Servo Underwater Gripping Robot - YIBO ZHOU</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="[Academics] Vision-Servo Underwater Gripping Robot" />
+<meta property="og:description" content="1 Duration 06/00/2021 - 12/00/2022
+2 Overview The Underwater Grabbing Robot is designed for 2021 National Innovation Training Project for University. I was responsible for the circuit system design, control algorithm design, and visual servoing algorithm design of the robot. Unlike traditional frame-based underwater grabbing robots, this robot features a four-axis olive-shaped structure that effectively reduces fluid resistance, giving it high maneuverability. The bottom gripper is capable of visual servoing to grasp target objects." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://X-20020504.github.io/vision-servo_underwater_gripping_robot/" /><meta property="og:image" content="https://X-20020504.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-30T19:35:35+08:00" />
+<meta property="article:modified_time" content="2022-12-30T19:35:35+08:00" /><meta property="og:site_name" content="My cool site" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://X-20020504.github.io/logo.png"/>
+
+<meta name="twitter:title" content="[Academics] Vision-Servo Underwater Gripping Robot"/>
+<meta name="twitter:description" content="1 Duration 06/00/2021 - 12/00/2022
+2 Overview The Underwater Grabbing Robot is designed for 2021 National Innovation Training Project for University. I was responsible for the circuit system design, control algorithm design, and visual servoing algorithm design of the robot. Unlike traditional frame-based underwater grabbing robots, this robot features a four-axis olive-shaped structure that effectively reduces fluid resistance, giving it high maneuverability. The bottom gripper is capable of visual servoing to grasp target objects."/>
+<meta name="application-name" content="YIBO ZHOU">
+<meta name="apple-mobile-web-app-title" content="YIBO ZHOU"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://X-20020504.github.io/vision-servo_underwater_gripping_robot/" /><link rel="prev" href="https://X-20020504.github.io/vision-servo_agricultural_quadcopter/" /><link rel="next" href="https://X-20020504.github.io/quadruped_blind_guiding_robot/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "[Academics] Vision-Servo Underwater Gripping Robot",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/X-20020504.github.io\/vision-servo_underwater_gripping_robot\/"
+        },"genre": "posts","wordcount":  158 ,
+        "url": "https:\/\/X-20020504.github.io\/vision-servo_underwater_gripping_robot\/","datePublished": "2022-12-30T19:35:35+08:00","dateModified": "2022-12-30T19:35:35+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "YIBO ZHOU"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="YIBO ZHOU"></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/academics/"> Academics </a><a class="menu-item" href="/photography/"> Photography </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="YIBO ZHOU"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/academics/" title="">Academics</a><a class="menu-item" href="/photography/" title="">Photography</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">[Academics] Vision-Servo Underwater Gripping Robot</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>YIBO ZHOU</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="12/30/2022 Fri">12/30/2022 Fri</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;158 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-duration">1 Duration</a></li>
+    <li><a href="#2-overview">2 Overview</a></li>
+    <li><a href="#3-required-knowledge">3 Required Knowledge</a></li>
+    <li><a href="#4-required-ability">4 Required Ability</a></li>
+    <li><a href="#5-required-tool">5 Required Tool</a></li>
+    <li><a href="#6-result">6 Result</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="1-duration">1 Duration</h2>
+<p>06/00/2021 - 12/00/2022</p>
+<h2 id="2-overview">2 Overview</h2>
+<p>The Underwater Grabbing Robot is designed for 2021 National Innovation Training Project for University. I was responsible for the circuit system design, control algorithm design, and visual servoing algorithm design of the robot. Unlike traditional frame-based underwater grabbing robots, this robot features a four-axis olive-shaped structure that effectively reduces fluid resistance, giving it high maneuverability. The bottom gripper is capable of visual servoing to grasp target objects. The robot&rsquo;s motion control algorithm utilizes a cascaded dual-loop PID controller. The object detection algorithm employs YOLOv5, with the dataset sourced from the OpenImages open-source dataset.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/09_02_real.png"
+        data-srcset="/img/09_02_real.png, /img/09_02_real.png 1.5x, /img/09_02_real.png 2x"
+        data-sizes="auto"
+        alt="/img/09_02_real.png"
+        title="real robot" /></p>
+<h2 id="3-required-knowledge">3 Required Knowledge</h2>
+<ul>
+<li>Robotics</li>
+<li>Computer Vision</li>
+<li>Robotic Manipulation</li>
+<li>Electronic Devices and Circuit Theory</li>
+<li>Classic Control Theory.</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/09_01_render.png"
+        data-srcset="/img/09_01_render.png, /img/09_01_render.png 1.5x, /img/09_01_render.png 2x"
+        data-sizes="auto"
+        alt="/img/09_01_render.png"
+        title="render" /></p>
+<h2 id="4-required-ability">4 Required Ability</h2>
+<ul>
+<li>Python Programming</li>
+<li>C Programming</li>
+<li>Electronic Component Soldering</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/09_03_gripper.png"
+        data-srcset="/img/09_03_gripper.png, /img/09_03_gripper.png 1.5x, /img/09_03_gripper.png 2x"
+        data-sizes="auto"
+        alt="/img/09_03_gripper.png"
+        title="gripper" /></p>
+<h2 id="5-required-tool">5 Required Tool</h2>
+<ul>
+<li>PyTorch</li>
+<li>3D CAD Design (SOLIDWORKS)</li>
+<li>CFD Simulation (ANSYS)</li>
+<li>PCB Design (Altium Designer)</li>
+<li>STM32 Microcontroller</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/img/09_04_object_detection.png"
+        data-srcset="/img/09_04_object_detection.png, /img/09_04_object_detection.png 1.5x, /img/09_04_object_detection.png 2x"
+        data-sizes="auto"
+        alt="/img/09_04_object_detection.png"
+        title="paper" /></p>
+<h2 id="6-result">6 Result</h2>
+<p>National Innovation Training Project - National Excellent Project Award. (top 10% in 2022).</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 12/30/2022 Fri</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/vision-servo_underwater_gripping_robot/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://X-20020504.github.io/vision-servo_underwater_gripping_robot/" data-title="[Academics] Vision-Servo Underwater Gripping Robot"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://X-20020504.github.io/vision-servo_underwater_gripping_robot/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://X-20020504.github.io/vision-servo_underwater_gripping_robot/" data-title="[Academics] Vision-Servo Underwater Gripping Robot" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://X-20020504.github.io/vision-servo_underwater_gripping_robot/" data-title="[Academics] Vision-Servo Underwater Gripping Robot"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://X-20020504.github.io/vision-servo_underwater_gripping_robot/" data-title="[Academics] Vision-Servo Underwater Gripping Robot"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/vision-servo_agricultural_quadcopter/" class="prev" rel="prev" title="[Academics] Vision-Servo Agricultural Quadcopter"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>[Academics] Vision-Servo Agricultural Quadcopter</a>
+            <a href="/quadruped_blind_guiding_robot/" class="next" rel="next" title="[Academics] Quadruped Blind Guiding Robot">[Academics] Quadruped Blind Guiding Robot<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

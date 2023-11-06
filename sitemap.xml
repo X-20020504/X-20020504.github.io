@@ -2,8 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://X-20020504.github.io/first_post/</loc><lastmod>2023-11-04T21:03:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://X-20020504.github.io/posts/</loc><lastmod>2023-11-04T21:03:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://X-20020504.github.io/</loc><lastmod>2023-11-04T21:03:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://X-20020504.github.io/quadruped_blind_guiding_robot/</loc><lastmod>2023-04-04T16:46:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://X-20020504.github.io/posts/</loc><lastmod>2023-04-04T16:46:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://X-20020504.github.io/</loc><lastmod>2023-04-04T16:46:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://X-20020504.github.io/vision-servo_underwater_gripping_robot/</loc><lastmod>2022-12-30T19:35:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://X-20020504.github.io/vision-servo_agricultural_quadcopter/</loc><lastmod>2021-11-20T19:54:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://X-20020504.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://X-20020504.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
