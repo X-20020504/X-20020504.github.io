@@ -59,8 +59,8 @@ skills:
       - name: C++
         description: ''
         percent: 100
-        icon: cpp.svg
-        icon_pack: static/logos
+        icon: devicon-cplusplus-plain
+        icon_pack: devicons
       - name: SQL
         description: ''
         percent: 40
