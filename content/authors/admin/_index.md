@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yibo Zhou 周祎博
+title: 周祎博
 
 # Name pronunciation (optional)
 name_pronunciation: Yibo Zhou
@@ -56,11 +56,11 @@ skills:
         percent: 80
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: C++
         description: ''
         percent: 100
-        icon: chart-line
-        icon_pack: fas
+        icon: cpp.svg
+        icon_pack: static/logos
       - name: SQL
         description: ''
         percent: 40
@@ -120,5 +120,6 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Yibo Zhou is a Student Assistant of EIE AILAB at Chongqing University. His research interests include robot manipulation, deep learning and reinforcement learning. He has a broad scope of the interdisciplinary domain of Robotics with rich project experiences. He has acquired knowledge includes Computer Science, Electronics, and Mechanics during the undergraduate studies.
+
 {style="text-align: justify;"}
