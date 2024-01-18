@@ -59,8 +59,8 @@ skills:
       - name: C++
         description: ''
         percent: 100
-        icon: custom
-        icon_pack: cpp
+        icon: cpp
+        icon_pack: custom
       - name: SQL
         description: ''
         percent: 40
