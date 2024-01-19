@@ -46,13 +46,20 @@ sections:
     id: projects
     content:
       title: Projects
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
       filters:
         folders:
-          - publication
-        featured_only: true
+          - projects
+        exclude_featured: true
     design:
       columns: '2'
-      view: card
+      view: citation
+    design:
+      columns: '2'
+      view: compact
   - block: collection
     id: publications
     content:
@@ -71,4 +78,6 @@ sections:
     design:
       columns: '2'
       view: compact
+  
+  
 ---
